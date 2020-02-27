@@ -21,7 +21,7 @@ Timing Out
 *Hint: If you both of your messages log at the same time, look at the syntax of a setTimeout. You'll need to call your function within an anonymous function the timeOut executes.
 
 *Create a new function called getWords that will attempt to do the following using several setTimeout calls:
-*Log a word instantly
+Log a word instantly
 After 3 seconds, log another word
 After 2 seconds, log another word
 After 1 second, log a final word
