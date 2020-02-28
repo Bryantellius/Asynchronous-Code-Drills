@@ -45,17 +45,29 @@ Callbacks and Recursion
 Promises Promises ;)
 
 *Create a new global variable called lunchTime with a value of true
+
 *Create a new function called orderMeSomeFood that returns a new Promise
+
 *Hint: If you're unsure of the correct syntax, check out this CodePen
+
 *In the resolver function of the Promise, write logic to check if the lunchTime variable is true
+
 *If lunchTime is true, create an object with two properties and values (key/value pairs) of your choice:
 lunch: "your favorite lunch"
 drink: "your favorite beverage"
+
 *Resolve the Promise with your object
+
 *If lunchTime is false, create a variable and set it equal to a new Error that has your own message
+
 *Hint: Check out this page on how to use a new Error
+
 *Reject the Promise with your new Error
+
 *Call your orderMeSomeFood function, chain you .then and don't forget your .catch
+
 *If the promise within the function resolves, it should then log the object it resolved with
+
 *Swap lunchTime to false, and then the promise should reject with your custom created error and be logged from you .catch
+
 *Toggle lunchTime and check out the results of your newly created Promise function.
